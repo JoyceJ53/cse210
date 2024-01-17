@@ -10,7 +10,7 @@ class Program
         int randomNumber = randomGenerator.Next(1,101);
         Console.WriteLine($"What is the magic number? {randomNumber}");
 
-        int userNumber = 0;
+        int userNumber = -1;
 
         // while user number doesn't equal random number
         while (randomNumber != userNumber)
