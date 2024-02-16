@@ -31,7 +31,7 @@ public class File
                 string responseLine = reader.ReadLine();
                 Entry loadedEntry = new Entry();
 
-                Console.WriteLine($"{dateLine}\n{promptLine}\n{responseLine}");
+                Console.WriteLine($"{dateLine}\n   {promptLine}\n   {responseLine}");
                 Console.WriteLine("");
 
                 DateTime date;
