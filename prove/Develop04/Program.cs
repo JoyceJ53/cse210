@@ -84,7 +84,7 @@ class Program
                     int listingIndex = listingActivity.randomPromptIndex();
                     string listingPrompt = listingActivity.randomPrompt(listingIndex);
                     listingActivity.PrintMenu(listingPrompt);
-                    listingActivity.userResponses(startTime, duration);
+                    listingActivity.userResponses(DateTime.Now, duration);
                     int responseCount = listingActivity.countResponses();
                     listingActivity.printResponseCount(responseCount);
                     listingActivity.WellDone();
